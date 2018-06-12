@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>title</title>
+
+    <meta name="description" content="content secription here">
+    <meta name="author" content="no name">
+
+    <!-- example 1: using viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <!-- example 2: using media queries -->
+    <style>
+        div.example {
+            padding: 30px;
+    }
+
+    @media screen and (min-width: 601px) {
+        div.example {
+            font-size: 40px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        div.example {
+            font-size: 30px;
+        }
+    }
+    </style>
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="example">
+    <br />
+	<strong>host</strong>
+	<br />
+    <a href="#">link 1</a>: description 1<br />
+    <a href="#">link 2</a>: description 2<br />
+    <a href="#">link 3</a>: description 3<br />
+</div>
+
+</body>
+</html>
